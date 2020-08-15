@@ -8,7 +8,6 @@
 	-epub-hyphens: none;
 }
 
-[epub|type~="epigraph"] em,
 [epub|type~="epigraph"] i{
 	font-style: normal;
 }
@@ -19,9 +18,6 @@
 	font-variant: small-caps;
 }
 
-[epub|type~="epigraph"] cite i{
-	font-style: italic;
-}
 /* End all epigraphs */
 
 /* Full-page epigraphs */
@@ -84,28 +80,22 @@ section[epub|type~="dedication"] > *{
 /* End all dedications */
 
 /* Verse */
+[epub|type~="z3998:song"],
 [epub|type~="z3998:verse"] p{
 	text-align: left;
 	text-indent: 0;
 }
 
+[epub|type~="z3998:song"],
 [epub|type~="z3998:verse"] p + p{
 	margin-top: 1em;
 }
 
+[epub|type~="z3998:song"],
 [epub|type~="z3998:verse"] + p{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:poem"] p > span{
-	display: block;
-	text-indent: -1em;
-	padding-left: 1em;
-}
-
-[epub|type~="z3998:poem"] p > span + br{
-	display: none;
-}
 /* End Verse */
 
 /* Drama */
@@ -161,7 +151,6 @@ section[epub|type~="dedication"] > *{
 	text-indent: 0;
 }
 
-table[epub|type~="z3998:drama"],
 [epub|type~="z3998:drama"] table{
 	margin: 1em auto;
 }
