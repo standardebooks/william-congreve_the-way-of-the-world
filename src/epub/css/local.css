@@ -54,45 +54,110 @@ section[epub|type~="epigraph"] > *{
 /* End full-page epigraphs */
 
 /* All dedications */
-section[epub|type~="dedication"] > *{
-	display: inline-block;
-	margin: auto;
+[epub|type~="z3998:salutation"]{
+	text-indent: 0;
+	font-variant: small-caps;
+	text-align: right;
+}
+
+#commendatory-verses,
+#epilogue,
+#prologue,
+section[epub|type~="dedication"]{
+	margin: 0 auto;
 	margin-top: 3em;
 	max-width: 80%;
 }
 
+#commendatory-verses h2 + p,
+section[epub|type~="dedication"] h2 + p{
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#commendatory-verses p,
+#prologue p,
+section[epub|type~="dedication"] p{
+	margin-top: 0;
+}
+
 @supports(display: flex){
+	#commendatory-verses,
+	#epilogue,
+	#prologue,
 	section[epub|type~="dedication"]{
 		align-items: center;
 		box-sizing: border-box;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		min-height: calc(98vh - 3em);
-		padding-top: 3em;
 	}
 
+	#commendatory-verses footer p,
+	section[epub|type~="dedication"] footer{
+		margin: 1em;
+		text-align: right;
+		align-self: flex-end;
+	}
+
+	#commendatory-verses footer p{
+		margin: 1em;
+		text-align: right;
+	}
+
+	[epub|type~="z3998:salutation"]{
+		align-self: flex-start;
+	}
+
+	#commendatory-verses > *,
+	#epilogue > *,
+	#prologue > *,
 	section[epub|type~="dedication"] > *{
 		margin: 0;
+	}
+
+	#commendatory-verses > * + *,
+	#epilogue > * + *,
+	#prologue > * + *,
+	section[epub|type~="dedication"] > * + *{
+		margin-top: 3em;
 	}
 }
 /* End all dedications */
 
-/* Verse */
-[epub|type~="z3998:song"],
+/* Verse & Song */
+[epub|type~="z3998:song"] p,
 [epub|type~="z3998:verse"] p{
 	text-align: left;
 	text-indent: 0;
 }
 
-[epub|type~="z3998:song"],
+[epub|type~="z3998:song"] p > span,
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+[epub|type~="z3998:song"] p > span + br,
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+
+[epub|type~="z3998:song"] p + p,
 [epub|type~="z3998:verse"] p + p{
 	margin-top: 1em;
 }
 
-[epub|type~="z3998:song"],
+[epub|type~="z3998:song"] + p,
 [epub|type~="z3998:verse"] + p{
 	text-indent: 0;
+}
+
+p span.i1{
+	text-indent: -1em;
+	padding-left: 2em;
 }
 /* End Verse */
 
@@ -127,7 +192,7 @@ section[epub|type~="dedication"] > *{
 
 [epub|type~="z3998:drama"] td{
 	vertical-align: top;
-	padding: .5em;
+	padding: 0.5em;
 }
 
 [epub|type~="z3998:drama"] td:last-child{
@@ -179,6 +244,11 @@ section[epub|type~="dedication"] > *{
 	font-variant: all-small-caps;
 }
 /* End Drama */
+
+footer{
+	margin: 1em;
+	text-align: right;
+}
 
 .signature{
 	font-variant: small-caps;
