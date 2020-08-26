@@ -32,41 +32,47 @@
 		<dc:subject id="subject-1">English drama (Comedy)</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85043353</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Comedy</meta>
+		<meta property="se:subject">Drama</meta>
+		<dc:description id="description">First performed and published in 1700, Congreve’s comedy ridicules the assumptions concerning love, marriage and property.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/william-congreve"&gt;William Congreve&lt;/a&gt;‘s comedy &lt;i&gt;The Way of the World&lt;/i&gt; was first performed in 1700 at the theatre in Lincoln’s Inn Fields, London. It was not well received and as a result Congreve vowed never to write for the stage again—a vow he kept. But nonetheless the comedy was printed in the same year and has come to be regarded as the author’s masterpiece and a classic of Restoration drama.&lt;/p&gt;
+			&lt;p&gt;In a world still reacting against the puritanism of Cromwell and the Commonwealth, Restoration drama had slowly transitioned from celebrating the licentiousness and opulence of the newly returned court to the more thoughtful and refined comedy of manners that was to dominate the English stage of 18th century. In one way Congreve’s &lt;i&gt;The Way of the World&lt;/i&gt; is the last (and best) of its type and yet in another, it is the forerunner of a style that is echoed even now.&lt;/p&gt;
+			&lt;p&gt;The play centers on the love affair of Mirabell and Millamant who are prevented from marrying by an number of obstacles, not the least of which is Mirabell’s past dalliance with Millamant’s aunt’s affections. Intricate, witty and amusing, the comedy nevertheless concludes with no clear heroes or heroines—one of the things that makes it such an incisive portrait of human experience and an enduring example of its type.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1292</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<dc:source>https://archive.org/details/afw2050.0001.001.umich.edu/page/262</dc:source>
+		<meta property="se:production-notes">The original Gutenberg text was based on the 1895 Methuen edition. I have updated it using footnotes and stage directions from the 1912 American Book Co. edition. I also added the "Comendatory Verses" by Richard Steele.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Way_of_the_World</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/william-congreve_the-way-of-the-world</meta>
 		<dc:creator id="author">William Congreve</dc:creator>
-		<meta property="file-as" refines="#author">AUTHOR_SORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">AUTHOR_FULL_NAME</meta>
+		<meta property="file-as" refines="#author">Congreve, William</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/William_Congreve</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n79092555</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URL</meta>
+		<dc:contributor id="artist">Jean-Honoré Fragonard</dc:contributor>
+		<meta property="file-as" refines="#artist">Fragonard, Jean-Honoré</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Jean-Honor%C3%A9_Fragonard</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n50025368</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="annotator">Felix E. Schelling</dc:contributor>
+		<meta property="file-as" refines="#annotator">Schelling, Felix E.</meta>
+		<meta property="role" refines="annotator" scheme="marc:relators">ann</meta>
+		<dc:contributor id="transcriber-1">David Price</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Price, David</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">B. Timothy Keith</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Keith, B. Timothy</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://astart.ca</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 	</metadata>
 	<manifest>
@@ -76,14 +82,40 @@
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="text/act-1.xhtml" id="act-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/act-2.xhtml" id="act-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/act-3.xhtml" id="act-3.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/act-4.xhtml" id="act-4.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/act-5.xhtml" id="act-5.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/commendatory-verses.xhtml" id="commendatory-verses.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/dedication.xhtml" id="dedication.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/dramatis-personae.xhtml" id="dramatis-personae.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/epigraph.xhtml" id="epigraph.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/epilogue.xhtml" id="epilogue.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/prologue.xhtml" id="prologue.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="epigraph.xhtml"/>
+		<itemref idref="commendatory-verses.xhtml"/>
+		<itemref idref="dedication.xhtml"/>
+		<itemref idref="halftitle.xhtml"/>
+		<itemref idref="prologue.xhtml"/>
+		<itemref idref="dramatis-personae.xhtml"/>
+		<itemref idref="act-1.xhtml"/>
+		<itemref idref="act-2.xhtml"/>
+		<itemref idref="act-3.xhtml"/>
+		<itemref idref="act-4.xhtml"/>
+		<itemref idref="act-5.xhtml"/>
+		<itemref idref="epilogue.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
