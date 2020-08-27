@@ -53,20 +53,8 @@ section[epub|type~="epigraph"] > *{
 }
 /* End full-page epigraphs */
 
-/* All dedications */
 [epub|type~="z3998:salutation"]{
 	text-indent: 0;
-	font-variant: small-caps;
-	text-align: right;
-}
-
-#commendatory-verses,
-#epilogue,
-#prologue,
-section[epub|type~="dedication"]{
-	margin: 0 auto;
-	margin-top: 3em;
-	max-width: 80%;
 }
 
 #commendatory-verses h2 + p,
@@ -81,50 +69,6 @@ section[epub|type~="dedication"] h2 + p{
 section[epub|type~="dedication"] p{
 	margin-top: 0;
 }
-
-@supports(display: flex){
-	#commendatory-verses,
-	#epilogue,
-	#prologue,
-	section[epub|type~="dedication"]{
-		align-items: center;
-		box-sizing: border-box;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
-
-	#commendatory-verses footer p,
-	section[epub|type~="dedication"] footer{
-		margin: 1em;
-		text-align: right;
-		align-self: flex-end;
-	}
-
-	#commendatory-verses footer p{
-		margin: 1em;
-		text-align: right;
-	}
-
-	[epub|type~="z3998:salutation"]{
-		align-self: flex-start;
-	}
-
-	#commendatory-verses > *,
-	#epilogue > *,
-	#prologue > *,
-	section[epub|type~="dedication"] > *{
-		margin: 0;
-	}
-
-	#commendatory-verses > * + *,
-	#epilogue > * + *,
-	#prologue > * + *,
-	section[epub|type~="dedication"] > * + *{
-		margin-top: 3em;
-	}
-}
-/* End all dedications */
 
 /* Verse & Song */
 [epub|type~="z3998:song"] p,
