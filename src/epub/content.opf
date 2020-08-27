@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/william-congreve/the-way-of-the-world</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2020-08-27T16:51:39Z</dc:date>
+		<meta property="dcterms:modified">2020-08-27T16:51:39Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -34,18 +34,18 @@
 		<meta property="term" refines="#subject-1">sh85043353</meta>
 		<meta property="se:subject">Comedy</meta>
 		<meta property="se:subject">Drama</meta>
-		<dc:description id="description">First performed and published in 1700, Congreve’s comedy ridicules the assumptions concerning love, marriage and property.</dc:description>
+		<dc:description id="description">Two lovers are prevented from marrying due to a previous dalliance.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/william-congreve"&gt;William Congreve&lt;/a&gt;‘s comedy &lt;i&gt;The Way of the World&lt;/i&gt; was first performed in 1700 at the theatre in Lincoln’s Inn Fields, London. It was not well received and as a result Congreve vowed never to write for the stage again—a vow he kept. But nonetheless the comedy was printed in the same year and has come to be regarded as the author’s masterpiece and a classic of Restoration drama.&lt;/p&gt;
-			&lt;p&gt;In a world still reacting against the puritanism of Cromwell and the Commonwealth, Restoration drama had slowly transitioned from celebrating the licentiousness and opulence of the newly returned court to the more thoughtful and refined comedy of manners that was to dominate the English stage of 18th century. In one way Congreve’s &lt;i&gt;The Way of the World&lt;/i&gt; is the last (and best) of its type and yet in another, it is the forerunner of a style that is echoed even now.&lt;/p&gt;
-			&lt;p&gt;The play centers on the love affair of Mirabell and Millamant who are prevented from marrying by an number of obstacles, not the least of which is Mirabell’s past dalliance with Millamant’s aunt’s affections. Intricate, witty and amusing, the comedy nevertheless concludes with no clear heroes or heroines—one of the things that makes it such an incisive portrait of human experience and an enduring example of its type.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/william-congreve"&gt;William Congreve’s&lt;/a&gt; comedy &lt;i&gt;The Way of the World&lt;/i&gt; was first performed in 1700 at the theatre in Lincoln’s Inn Fields, London. It was not well received, and as a result Congreve vowed never to write for the stage again—a vow he kept. Nonetheless the comedy was printed in the same year and has come to be regarded as the author’s masterpiece, a classic of Restoration drama.&lt;/p&gt;
+			&lt;p&gt;In a world still reacting against the puritanism of Cromwell and the Commonwealth, Restoration drama had slowly transitioned from celebrating the licentiousness and opulence of the newly returned court to the more thoughtful and refined comedy of manners that was to dominate the English stage of 18th century. In one way Congreve’s &lt;i&gt;The Way of the World&lt;/i&gt; is the last (and best) of its type, and in another way, it is the forerunner of a style that is echoed even now.&lt;/p&gt;
+			&lt;p&gt;The play centers on the love affair of Mirabell and Millamant who are prevented from marrying by a number of obstacles, not the least of which is Mirabell’s past dalliance with Millamant’s aunt’s affections. Intricate, witty, and amusing, the comedy nevertheless concludes with no clear heroes or heroines—one of the things that makes it such an incisive portrait of human experience and an enduring example of its type.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1292</dc:source>
 		<dc:source>https://archive.org/details/afw2050.0001.001.umich.edu/page/262</dc:source>
 		<meta property="se:production-notes">The original Gutenberg text was based on the 1895 Methuen edition. I have updated it using footnotes and stage directions from the 1912 American Book Co. edition. I also added the "Commendatory Verses" by Richard Steele.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">30029</meta>
+		<meta property="se:reading-ease.flesch">74.59</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Way_of_the_World</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/william-congreve_the-way-of-the-world</meta>
 		<dc:creator id="author">William Congreve</dc:creator>
@@ -74,6 +74,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
