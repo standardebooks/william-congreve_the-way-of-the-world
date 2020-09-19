@@ -94,11 +94,6 @@ section[epub|type~="dedication"] p{
 	margin-top: 1em;
 }
 
-[epub|type~="z3998:song"] + p,
-[epub|type~="z3998:verse"] + p{
-	text-indent: 0;
-}
-
 p span.i1{
 	text-indent: -1em;
 	padding-left: 2em;
