@@ -53,7 +53,7 @@ section[epub|type~="epigraph"] > *{
 }
 /* End full-page epigraphs */
 
-[epub|type~="z3998:salutation"]{
+[epub|type~="z3998:salutation"] + p{
 	text-indent: 0;
 }
 
