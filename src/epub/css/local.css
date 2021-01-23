@@ -120,6 +120,10 @@ p span.i1{
 	font-style: italic;
 }
 
+[epub|type~="z3998:dramatis-personae"] ul + p{
+	margin-top: 2em;
+}
+
 [epub|type~="z3998:drama"] table{
 	border-collapse: collapse;
 	margin: 1em auto;
