@@ -60,7 +60,7 @@
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="annotator">Felix E. Schelling</dc:contributor>
 		<meta property="file-as" refines="#annotator">Schelling, Felix E.</meta>
-		<meta property="role" refines="annotator" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#annotator" scheme="marc:relators">ann</meta>
 		<dc:contributor id="transcriber-1">David Price</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Price, David</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
