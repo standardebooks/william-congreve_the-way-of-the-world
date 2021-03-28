@@ -51,12 +51,12 @@
 		<dc:creator id="author">William Congreve</dc:creator>
 		<meta property="file-as" refines="#author">Congreve, William</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/William_Congreve</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n79092555</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79092555</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Jean-Honoré Fragonard</dc:contributor>
 		<meta property="file-as" refines="#artist">Fragonard, Jean-Honoré</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Jean-Honor%C3%A9_Fragonard</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n50025368</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50025368</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="annotator">Felix E. Schelling</dc:contributor>
 		<meta property="file-as" refines="#annotator">Schelling, Felix E.</meta>
