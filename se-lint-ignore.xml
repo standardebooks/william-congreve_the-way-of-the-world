@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="endnotes.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Matched text are quotations from the middle of sentences, so they should begin in lowercase.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
