@@ -13,9 +13,9 @@
 }
 
 [epub|type~="epigraph"] cite{
-	margin-top: 1em;
 	font-style: normal;
 	font-variant: small-caps;
+	margin-top: 1em;
 }
 /* End all epigraphs */
 
@@ -59,9 +59,9 @@ section[epub|type~="epigraph"] > *{
 
 #commendatory-verses h2 + p,
 section[epub|type~="dedication"] h2 + p{
-	text-align: center;
-	margin-top: 1em;
 	margin-bottom: 1em;
+	margin-top: 1em;
+	text-align: center;
 }
 
 #commendatory-verses p,
@@ -139,8 +139,8 @@ p span.i1{
 }
 
 [epub|type~="z3998:drama"] td{
-	vertical-align: top;
 	padding: 0.5em;
+	vertical-align: top;
 }
 
 [epub|type~="z3998:drama"] td:last-child{
