@@ -1,0 +1,1 @@
+The original Gutenberg text was based on the 1895 Methuen edition. I have updated it using footnotes and stage directions from the 1912 American Book Co. edition. I also added the "Commendatory Verses" by Richard Steele.
