@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/william-congreve/the-way-of-the-world</dc:identifier>
 		<dc:date>2020-08-27T16:51:39Z</dc:date>
@@ -35,12 +35,12 @@
 		<meta property="term" refines="#subject-1">sh85043353</meta>
 		<meta property="schema:genre">Comedy</meta>
 		<meta property="schema:genre">Drama</meta>
-		<dc:description id="description">Two lovers are prevented from marrying due to a previous dalliance.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>Two lovers are prevented from marrying due to a previous dalliance.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/william-congreve"&gt;William Congreve’s&lt;/a&gt; comedy &lt;i&gt;The Way of the World&lt;/i&gt; was first performed in 1700 at the theatre in Lincoln’s Inn Fields, London. It was not well received, and as a result Congreve vowed never to write for the stage again—a vow he kept. Nonetheless the comedy was printed in the same year and has come to be regarded as the author’s masterpiece, a classic of Restoration drama.&lt;/p&gt;
 			&lt;p&gt;In a world still reacting against the puritanism of Cromwell and the Commonwealth, Restoration drama had slowly transitioned from celebrating the licentiousness and opulence of the newly returned court to the more thoughtful and refined comedy of manners that was to dominate the English stage of 18th century. In one way Congreve’s &lt;i&gt;The Way of the World&lt;/i&gt; is the last (and best) of its type, and in another way, it is the forerunner of a style that is echoed even now.&lt;/p&gt;
 			&lt;p&gt;The play centers on the love affair of Mirabell and Millamant who are prevented from marrying by a number of obstacles, not the least of which is Mirabell’s past dalliance with Millamant’s aunt’s affections. Intricate, witty, and amusing, the comedy nevertheless concludes with no clear heroes or heroines—one of the things that makes it such an incisive portrait of human experience and an enduring example of its type.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/1292</dc:source>
 		<dc:source>https://archive.org/details/afw2050.0001.001.umich.edu</dc:source>
